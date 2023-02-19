@@ -63,4 +63,5 @@ Table of contents
 .linkedin :hover, .github :hover {
      color: rgb(18, 215, 255);
      transition-duration: 300ms;
+     transition: ease-in-out;
 }
