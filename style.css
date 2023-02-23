@@ -65,3 +65,16 @@ Table of contents
      transition-duration: 300ms;
      transition: ease-in-out;
 }
+
+.project-btns button {
+    background-color: rgb(243, 53, 91);
+    
+}
+
+.project-btns :hover {
+    background-color: rgb(18, 215, 255);
+    color: white;
+     transition-duration: 300ms;
+     transition: ease-in-out;
+     transform-style: flat;
+}
