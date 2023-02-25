@@ -79,3 +79,10 @@ Table of contents
      transform-style: flat;
 }
 
+.bio-p{
+    text-decoration: underline;
+}
+
+.bio-p :hover{
+    color: rgb(18, 215, 255);
+}
