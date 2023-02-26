@@ -86,3 +86,9 @@ Table of contents
 .bio-p :hover{
     color: rgb(18, 215, 255);
 }
+
+.logo-header{
+    background-color: rgb(243, 53, 91);
+    border-radius: 10px;
+    padding: 10px;
+}
