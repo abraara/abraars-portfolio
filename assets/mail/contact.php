@@ -80,6 +80,9 @@ if(mail($address, $e_subject, $msg, $headers)) {
 
 } else {
 
-	echo 'ERROR!';
+	echo "<div class='alert'>";
+	echo "<h3>Email Not Sent.</h3>";
+	echo "<p>Please try again later or click my email on the right to send a direct email to me.</p>";
+	echo "</div>";
 
 }
