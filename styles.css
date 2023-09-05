@@ -68,10 +68,11 @@ Table of contents
 
 .project-btns button {
     background-color: rgb(243, 53, 91);
+    color: white;
     
 }
 
-.project-btns :hover {
+.project-btns :hover{
     background-color: rgb(18, 215, 255);
     color: white;
      transition-duration: 300ms;
