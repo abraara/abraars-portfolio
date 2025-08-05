@@ -651,8 +651,17 @@
             transition: filter 0.3s ease;
         }
 
+        /* Special handling for Next.js logo */
+        .skill-card img[alt="Next.js"] {
+            filter: grayscale(100%) brightness(0.7);
+        }
+
         .skill-card:hover img {
             filter: grayscale(0%);
+        }
+
+        .skill-card:hover img[alt="Next.js"] {
+            filter: grayscale(0%) brightness(1);
         }
 
         .skill-card h4 {
@@ -1104,7 +1113,7 @@
                     </div>
                     <div class="portfolio-content">
                         <h3>Hockey Players</h3>
-                        <p>Sports Information Management System</p>
+                        <p>Sports Information System</p>
                         <div class="portfolio-tags">
                             <span class="tag">PHP</span>
                             <span class="tag">MySQL</span>
@@ -1121,7 +1130,7 @@
                     </div>
                     <div class="portfolio-content">
                         <h3>Upstream</h3>
-                        <p>Finance/Investment Simulation Platform</p>
+                        <p>Investment Simulation Platform</p>
                         <div class="portfolio-tags">
                             <span class="tag">JavaScript</span>
                             <span class="tag">C#</span>
@@ -1401,7 +1410,7 @@
                     <span class="tag">MongoDB</span>
                 </div>
                 <div class="cta-buttons" style="margin-top: 2rem;">
-                    <a href="https://shoppinlocal.com/" target="_blank" class="btn btn-primary">
+                    <a href="https://shoppinlocal.vercel.app/" target="_blank" class="btn btn-primary">
                         View Demo <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
